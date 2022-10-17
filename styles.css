@@ -20,15 +20,23 @@
     background: #212121;
 }
 
+.headshot {
+    position: relative;
+    padding-top: 70px;
+    left: 22%;
+    transform: translate(-80%, 0%);
+    height: 350px;
+}
+
 .logo:hover {
     cursor: pointer;
 }
 
 .name {
     position: absolute;
+    top: 40%;
     left: 50%;
-    top: 30%;
-    transform: translate(-50%, -70%);
+    transform: translate(-55%, -70%);
     font-size: 80px;
     font-weight: 500;
     color: #38b6ff  ;
@@ -36,12 +44,49 @@
 
 .headline {
     position: absolute;
+    top: 60%;
     left: 50%;
-    top: 50%;
     height: 100px;
-    transform: translate(-50%, -50%);
+    transform: translate(-47%, -55%);
     font-size: 40px;
     font-weight: 400;
     color: #c9c9c9;
     justify-content: center;
+}
+
+.footer {
+    position: absolute;
+    width: 100%;
+    background: #128bcc;
+    bottom: 0;
+    height: 2.5rem;
+}
+
+.footer a {
+    color: inerhit;
+    text-decoration: none;
+}
+
+.social-list {
+    background: #128bcc;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 2em 0;
+    padding: 0;
+    padding-bottom: 25px;
+}
+
+.social-list-item {
+    background: #128bcc;
+    margin: 0 0.5em;
+}
+
+.social-logo {
+    background: #128bcc;
+    height: 40px;
+}
+
+.social-logo:hover {
+    opacity: 70%;
 }
