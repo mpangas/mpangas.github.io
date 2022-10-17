@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     font-family: "Oswald", sans-serif;
-    font-weight: 400;
     background: #303030;
 }
 
@@ -23,4 +22,26 @@
 
 .logo:hover {
     cursor: pointer;
+}
+
+.name {
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -70%);
+    font-size: 80px;
+    font-weight: 500;
+    color: #38b6ff  ;
+}
+
+.headline {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 100px;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    font-weight: 400;
+    color: #c9c9c9;
+    justify-content: center;
 }
